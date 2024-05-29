@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
         - name: nodeappcontainer
-          image: us.gcr.io/kinetic-road-371315/nodeapp:v2
+          image: us-central1-docker.pkg.dev/gke-demo-1-423711/gke-demo-repo/gke-demo-cloud:v1
           ports:
             - containerPort: 80
